@@ -1,0 +1,7 @@
+To run the this automation suite you need below packages install in your env.
+-Robot framework
+-Pyhton 3.10
+-Selenium 
+To run UI automation testcases use below cmd
+cd <PathOfYoureMachine>\sauce_demo_assignement\suits\
+run cmd robot .\UI.robot
