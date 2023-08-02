@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20230802 12:13:33.543" rpa="false" schemaversion="3">
+<suite id="s1" name="UI" source="C:\pythonProject_Study\suits\UI.robot">
+<test id="s1-t1" name="Verify Ui Login" line="5">
+<kw name="Ui Login" library="ui_keywords">
+<arg>${LOGIN_URL}</arg>
+<arg>${USER_NAME}</arg>
+<arg>${PASSWORD}</arg>
+<doc>Verify UI login</doc>
+<kw name="Login To Ui" library="utils">
+<arg>${URL}</arg>
+<arg>${USER_NAME}</arg>
+<arg>${PASSWORD}</arg>
+<msg timestamp="20230802 12:13:33.821" level="INFO">Applicable driver not found; attempting to install with Selenium Manager (Beta)</msg>
+<status status="PASS" starttime="20230802 12:13:33.812" endtime="20230802 12:13:36.534"/>
+</kw>
+<status status="PASS" starttime="20230802 12:13:33.812" endtime="20230802 12:13:36.534"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230802 12:13:39.545" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" starttime="20230802 12:13:36.535" endtime="20230802 12:13:39.545"/>
+</kw>
+<status status="PASS" starttime="20230802 12:13:33.811" endtime="20230802 12:13:39.546"/>
+</test>
+<status status="PASS" starttime="20230802 12:13:33.545" endtime="20230802 12:13:41.695"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="UI">UI</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
